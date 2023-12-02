@@ -1,13 +1,21 @@
 d1 $ n "3 3 3 3" # s "kick"
 
+d1 silence
+
 
 d2 $ n "[~ 1] [~ 1] [~ 1] [~ 1]" # s "arpy"
   # crush 3
 
-d3 $ s "clap:2 clap:2"
+d3 $ s "~ clap:2 ~ clap:2"
 
-d4 $ n "~ [2 2 2] ~ [2 2 2]" # s "clap"
+d4 $ n "3 [2 2 ~] 3 [2 2 ~]" # s "clap"
 
 d4 silence
 
 hush
+
+d5 $ s "rash:14 rash:15 rash:16 rash:16"
+
+d6 $ s "[dbass:0 dbass:1] dbass:0 [dbass:2 dbass:3] dbass:0"
+
+d6 silence
